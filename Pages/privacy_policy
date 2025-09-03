@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy – craizh</title>
+  <meta name="description" content="Privacy policy for mobile applications developed and published by craizh." />
+  <meta name="robots" content="noindex,nofollow" />
+  <style>
+    :root {
+      --bg: #0b0c0f;
+      --card: #111318;
+      --text: #e7e9ee;
+      --muted: #a7adbb;
+      --accent: #6ea8fe;
+      --link: #8ec5ff;
+      --border: #222632;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f8fb;
+        --card: #ffffff;
+        --text: #12151c;
+        --muted: #5a6272;
+        --accent: #0b5cff;
+        --link: #0a58ca;
+        --border: #e5e7ef;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 80% -10%, rgba(110,168,254,.12), transparent 60%),
+                  radial-gradient(1000px 600px at -10% 30%, rgba(110,168,254,.08), transparent 60%),
+                  var(--bg);
+    }
+    .container {
+      max-width: 900px;
+      padding: 32px 20px 80px;
+      margin: 0 auto;
+    }
+    header {
+      padding: 28px 24px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    }
+    h1 {
+      font-size: clamp(26px, 4vw, 36px);
+      line-height: 1.2;
+      margin: 0 0 6px;
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    main {
+      margin-top: 24px;
+      display: grid;
+      gap: 16px;
+    }
+    section {
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: 16px;
+      padding: 22px 24px;
+    }
+    h2 {
+      font-size: clamp(18px, 2.6vw, 22px);
+      margin: 0 0 10px;
+    }
+    p, li { color: var(--text); }
+    a { color: var(--link); text-decoration: underline; }
+    a:focus, a:hover { text-decoration-thickness: 2px; }
+    ul { padding-left: 18px; }
+    .foot {
+      margin-top: 24px;
+      font-size: 14px;
+      color: var(--muted);
+      text-align: center;
+    }
+    .badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 10px; border-radius: 999px;
+      background: linear-gradient(180deg, rgba(110,168,254,.20), rgba(110,168,254,.10));
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header aria-labelledby="title">
+      <div class="badge" aria-hidden="true">Privacy Policy</div>
+      <h1 id="title">Privacy policy</h1>
+      <p class="subtitle">Last updated: <time datetime="2025-04-03">03 April 2025</time></p>
+      <p>This privacy policy applies to the mobile applications (apps) developed and published by <strong>craizh</strong>. By installing and using our apps, you agree to the information collection as described in this policy. If you do not agree to this policy, do not use our apps and uninstall them from your device.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="data-collection">
+        <h2 id="data-collection">Data collection</h2>
+        <p>We do not collect any personal data from users of our app. However, third-party services integrated into the app may collect data as described below.</p>
+      </section>
+
+      <section aria-labelledby="advertising-services">
+        <h2 id="advertising-services">Advertising Services</h2>
+        <p><strong>AdMob</strong>, a service provided by Google, is used to serve advertisements within the app. AdMob may collect and use user data to provide personalized advertising. For more information, refer to Google's privacy policy and safety center. You can opt-out of personalized advertising on your Google ad settings page.</p>
+        <ul>
+          <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">policies.google.com/privacy</a></li>
+          <li>Google Safety Center (ads & data): <a href="https://safety.google/privacy/ads-and-data/" rel="noopener" target="_blank">safety.google/privacy/ads-and-data</a></li>
+          <li>Google Ads Settings (opt-out): <a href="https://adssettings.google.com/" rel="noopener" target="_blank">adssettings.google.com</a></li>
+        </ul>
+        <p><strong>Mintegral</strong> is used to serve ads through mediation with AdMob. Mintegral may collect user data to deliver targeted ads. For further information, refer to Mintegral's privacy policy: <a href="https://www.mintegral.com/en/privacy" target="_blank" rel="noopener">mintegral.com/en/privacy</a>.</p>
+        <p><strong>Meta Audience Network</strong>, provided by Meta, is used to serve ads through mediation with AdMob. Meta may collect and use user data for ad personalization. For more details, refer to Meta's privacy policy: <a href="https://www.facebook.com/privacy/policy" target="_blank" rel="noopener">facebook.com/privacy/policy</a>.</p>
+      </section>
+
+      <section aria-labelledby="crash-reporting">
+        <h2 id="crash-reporting">Crash reporting</h2>
+        <p><strong>Firebase Crashlytics</strong>, provided by Google, is used to detect and report app crashes. Crashlytics may collect crash logs and related data, such as device state information, unique device identifiers, location data, and usage data, to help improve app stability. For more information, see Firebase's data processing and security terms: <a href="https://firebase.google.com/terms/data-processing-terms" target="_blank" rel="noopener">firebase.google.com/terms/data-processing-terms</a>.</p>
+      </section>
+
+      <section aria-labelledby="data-sharing">
+        <h2 id="data-sharing">Data sharing</h2>
+        <p>We do not share any user data with third parties beyond what is necessary for the functioning of the app and the services mentioned above.</p>
+      </section>
+
+      <section aria-labelledby="changes">
+        <h2 id="changes">Changes to this privacy policy</h2>
+        <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.</p>
+      </section>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Contact us</h2>
+        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a href="mailto:craizhenterprise@outlook.com">craizhenterprise@outlook.com</a>.</p>
+      </section>
+
+      <p class="foot">© <span id="year"></span> craizh — All rights reserved.</p>
+    </main>
+  </div>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
