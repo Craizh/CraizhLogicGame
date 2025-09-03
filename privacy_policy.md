@@ -1,12 +1,6 @@
----
-lang: en
-title: Privacy Policy -- craizh
-viewport: width=device-width, initial-scale=1
----
-
 # Privacy policy
 
-*Last updated: 03 April 2025*
+*Last updated: 03 September 2025*
 
 This privacy policy applies to the mobile applications (apps) developed
 and published by **craizh**. By installing and using our apps, you agree
